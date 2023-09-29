@@ -23,7 +23,9 @@
             font-size:36px ;
             font-weight: 700;
             color:#2D2640;
-            font-family: serif;                     
+            font-family: serif;
+            text-transform: none;
+                              
         }
         .nav{ display:flex;
             align-items: center;
@@ -48,11 +50,14 @@
             background-color:#2D2640;
             color:white;
         }
+        a:hover:not(.btn){
+            color:#2D2640;
+        }
     </style>
 </head>
 <body>
     <div class="flex-container">
-        <div class="header">Proinsure</div>
+        <a href="#" class="header">Proinsure</a>
         <div class="nav">
             <a href="#">Home</a>
             <a href="#">About</a>
