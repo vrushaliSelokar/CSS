@@ -9,7 +9,6 @@
         *{
             box-sizing: border-box;
             margin:0px;
-            /* overflow:hidden; */
             line-height: 1;
         }
         .flex_container{
@@ -59,15 +58,14 @@
         /* First row */
         .row1{
             display: flex;
-            /* flex-wrap: wrap; */
             background-color: #2D2640;
             justify-content: space-between;
-            /* padding:60px 70px; */
             margin-top: 76px;
+            
         }
         .txt{
             color:white;
-            padding: 20px 198px;
+            padding: 20px 93px;
             line-height: 1.5;
             text-align: justify;
         }
@@ -84,20 +82,17 @@
         }
         .head_line{
             width:25%;
-
-        }
+       }
         h1{
             font-size: 56px;
         }
+        /* row 2 strt */
         .heroimage{
-            margin-bottom:-160px;
-            
+            margin:20px 117px -84px 230px;
         }
 
-/* row 2 strt */
         .flx-head{
-            margin:10px 60px;
-            margin-left:20px;
+            margin:20px 60px;           
         }
         .flx-head h2{
             font-size: 48px;
@@ -122,8 +117,11 @@
             align-items: center;
             justify-content: center;
         }
-
-        .row3{
+        .image2{
+            margin-right:200px;
+        }
+                                        /* row 3 */
+        .row3{                                  
             display: flex;
             padding: 20px 0px;
             line-height: 1.5;
@@ -136,7 +134,8 @@
         }
         .row3 div{
             justify-content: space-between;
-            padding: 10px;
+            padding: 20px;
+            text-align: justify;
         }
         .row3 h3{
             font-size: 32px;
@@ -187,7 +186,7 @@
     </style>
 </head>
 <body>
-    <div class="flex_container"style="position:fixed; ">
+    <div class="flex_container" style="position:fixed">
         <a href="#" class="head">Proinsure</a>
         <div >
             <ul class="nav">
@@ -203,13 +202,15 @@
     <div class="row1">
         <div class="txt">
             <hr class="head_line">
-            <h1>Humanizing Your<br> Insurance</h1>
-            <p style="font-size: 18px;line-height: 1.5;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <h1 style="margin:5px">Humanizing Your<br> Insurance</h1>
+            <p style="margin:5px;margin-bottom: 20px; font-size: 18px;line-height: 1.5;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Sunt cupiditate aspernatur eius doloremque nam id odit 
                 temporibus blanditiis iusto voluptates! Fuga delectus 
                 distinctio quisquam cupiditate maiores, ea ipsam consectetur soluta.
             </p>
-            <span><a href="#" class="btn-blue">View plans</a></span>
+            <span>
+                <a href="#" class="btn-blue">View plans</a>
+            </span>
         </div>
         <div><img class="heroimage" src="hero.png" alt="man with child"></div>
     </div>
@@ -217,7 +218,9 @@
     <!-- row 1st End -->
 
     <div class="row2">
-        <img src="field.png" alt="man with child in a field">
+        <div class="image2">
+            <img src="field.png" alt="man with child in a field">
+        </div>
 
         <div class="subcon">
             <h2>About the insure</h2>
