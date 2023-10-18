@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login ed</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(48, 47, 54);
+        color: white;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+
+      }
+      .container {
+        width: 400px;
+        /* height: 400px; */
+        text-align: center;
+      }
+      img {
+        border-radius: 5px;
+        width: 90px;
+      }
+      p {
+        background-color: rgb(93, 28, 28);
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      select {
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        padding: 2px;
+
+      }
+      select option{
+        color: black;
+      }
+      select option:hover{
+        background-color: rgb(24, 24, 223);
+        color: white;
+      }
+      label{
+        text-align: left;
+        font-size: 18px;
+        margin-left: -295px;
+      }
+      input {
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        margin: 5px;
+      }
+      button {
+        background-color: rgb(24, 24, 223);
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        width: 100%;
+        margin: 5px;
+        border: none;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul style="list-style-type: none">
+        <li><img src="ed.png" alt="logo" /></li>
+        <li><p>Login to continue</p></li>
+        <li>
+          <select>
+            <option value="US">US</option>
+            <option value="Australia" selected>Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Europe">Europe</option>
+            <option value="Asia pacific">Asia Pacific</option>
+            <option value="United Kingdom">United Kingdom</option>
+          </select>
+        </li>
+
+        <li><label>Email</label></li>
+
+        <li><input type="email" onfocus=""/></li>
+
+        <li><button>Continue</button></li>
+        <li>Forgot password?</li>
+      </ul>
+    </div>
+  </body>
+</html>
