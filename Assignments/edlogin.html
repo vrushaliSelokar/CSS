@@ -14,8 +14,10 @@
     <style>
       * {
         box-sizing: border-box;
+        overflow: hidden;
       }
       body {
+        height:100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,13 +29,15 @@
       }
       .container {
         width: 400px;
-        /* height: 400px; */
+        /* height:auto; */
+        height: 400px;
         text-align: center;
-      }
-      img {
+        margin-top: 100px;
+        }
+      /* img {
         border-radius: 5px;
         width: 90px;
-      }
+      } */
       p {
         background-color: rgb(93, 28, 28);
         text-align: center;
@@ -78,13 +82,26 @@
         border: none;
         font-size: 18px;
       }
+      .logo{
+        font-size: 30px;
+        max-width:60px;
+        text-align: center;
+        font-weight: bolder;
+        background-image: conic-gradient(at 70% 5%,rgb(166, 66, 160), rgb(89, 90, 168)    );
+        border-radius: 5px;
+        margin-left: 150px;
+        padding:5px 15px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <ul style="list-style-type: none">
-        <li><img src="ed.png" alt="logo" /></li>
-        <li><p>Login to continue</p></li>
+        <!-- <li><img src="ed.png" alt="logo" /></li> -->
+        <li class="logo" >
+            ed
+        </li>
+        <li><p id="demo">Login to continue</p></li>
         <li>
           <select>
             <option value="US">US</option>
@@ -98,11 +115,16 @@
 
         <li><label>Email</label></li>
 
-        <li><input type="email" onfocus=""/></li>
+        <li><input type="email" onclick="changetxt();"/></li>
 
         <li><button>Continue</button></li>
         <li>Forgot password?</li>
       </ul>
     </div>
+    <script>
+       function changetxt(){
+        document.getElementById('demo').innerHTML= "Enter your email";
+      }
+    </script>
   </body>
 </html>
