@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b38cb5af83.js" crossorigin="anonymous"></script>
+    <title>to create search Bar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav{
+            background-color: rgb(222, 217, 217);
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color:black;
+            text-align: center;
+            padding: 15px;
+            margin: 0;
+        }
+        a:hover{
+            background-color: rgb(115, 115, 119);
+            color:black;
+        }
+        .active{
+            background-color: rgb(48, 48, 125);
+            color:white;
+        }
+        input{
+            padding:5px 10px 5px 10px;
+            font-size: 17px;
+            margin-right: 5px;
+            border: none;
+        }
+        .fa-solid{
+            border:none;
+            margin-left: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <span>
+            <a class="active" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </span>
+
+        <span>
+            <input type="text" placeholder="Search..." >
+            <a><i class="fa-solid fa-magnifying-glass"></i></a>
+        </span>
+        
+    </nav>
+</body>
+</html>
