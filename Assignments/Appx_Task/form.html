@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appx Form</title>
+    <style>
+        *{
+            margin:0;
+            box-sizing: border-box;
+            font-family: "RedHatDisplay-Regular", Sans-serif !important;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            /* padding:40px; */
+            padding:0 105px;
+        }
+        h1{
+            font-size: 50px;
+            padding: 40px 0;
+        }
+        .main input,select,textarea{
+            width:100%;
+        }
+        .main{
+            
+        }
+        p{
+            padding: 10px 0;
+        }
+        input,select,textarea{
+            padding:10px;
+            margin:5px 0 15px 0;
+            background-color:#F5F8FA;
+            border:1px solid #CBD6E2;
+        }
+        .chklist{
+            margin-bottom: 30px;
+        }
+         input[type="checkbox"] {
+           vertical-align:-webkit-baseline-middle;
+            margin-right: 5px;
+        }
+        button{
+            display: inline-block;
+            background-color: #FF7A59;
+            color:white;
+            font-weight: 600;
+            text-align: center;
+            padding: 10px 25px;
+            border:none;
+            margin:30px 0;
+        }
+        span{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BECOME A DEALER</h1>
+        <form>
+            <div class="main">
+            <label for="fname" required>First name<span>&#42;</span></label>
+                <input type="text">
+            <label for="lname" required>Last Name<span>&#42;</span></label>
+                <input type="text">
+            <label for="Bname" required>Business Name<span>&#42;</span></label>
+                <input type="text">
+            <label for="fname">Email Address<span>&#42;</span></label>
+                <input type="email" required>
+            <label for="phone">Phone Number</label>
+                <input type="tel">
+            <label for="city" >City<span>&#42;</span></label>
+                <input type="text" required>
+                <label>Select your State/Province/Region<span>&#42;</span></label>
+            <select>
+                <option id="" name="" disabled>Please Select</option>
+                <option id="" name="">Outside US/Canada</option>
+                <option id="" name="">Alabama</option>
+                <option id="" name="">Alaska</option>
+                <option id="" name="">Arizona</option>
+                <option id="" name="">Arkansas</option>
+                <option id="" name="">California</option>
+                <option id="" name="">Colorado</option>
+                <option id="" name="">Connecticut</option>
+                <option id="" name="">Delaware</option>
+                <option id="" name="">Florida</option>
+                <option id="" name="">Georgia</option>
+                <option id="" name="">Hawaii</option>
+                <option id="" name="">Idaho</option>
+                <option id="" name="">Illinois</option>
+                <option id="" name="">Indiana</option>
+                <option id="" name="">Iowa</option>
+                <option id="" name="">Kansas</option>
+                <option id="" name="">Kentucky</option>
+                <option id="" name="">Louisiana</option>
+                <option id="" name="">Maine</option>
+                <option id="" name="">Maryland</option>
+                <option id="" name="">Massachusetts</option>
+                <option id="" name="">Michigan</option>
+                <option id="" name="">Minnesota</option>
+                <option id="" name="">mississippi</option>
+                <option id="" name="">Missouri</option>
+                <option id="" name="">Montana</option>
+                <option id="" name="">Nebraska</option>
+                <option id="" name="">Nevada</option>
+                <option id="" name="">New Hampshire</option>
+                <option id="" name="">New Jersey</option>
+                <option id="" name="">New Mexico</option>
+                <option id="" name="">New York</option>
+                <option id="" name="">North Carolina</option>
+                <option id="" name="">North Dakota</option>
+                <option id="" name="">Ohio</option>
+                <option id="" name="">Oklahoma</option>
+                <option id="" name="">Oregon</option>
+                <option id="" name="">Pennsylvania</option>
+                <option id="" name="">Rhode Island</option>
+                <option id="" name="">South Carolina</option>
+                <option id="" name="">South Dakota</option>
+                <option id="" name="">Tennessee</option>
+                <option id="" name="">Texas</option>
+                <option id="" name="">Utah</option>
+                <option id="" name="">Vermont</option>
+                <option id="" name="">Virginia</option>
+                <option id="" name="">Washington</option>
+                <option id="" name="">Washington DC</option>
+                <option id="" name="">West Verginia</option>
+                <option id="" name="">Wisconsin</option>
+                <option id="" name="">Wyoming</option>
+                <option id="" name="">Alberta</option>
+                <option id="" name="">British Columbia</option>
+                <option id="" name="">Manitoba</option>
+                <option id="" name="">New Brunswick</option>
+                <option id="" name="">Newfoundland </option>
+                <option id="" name="">Nova Scotia</option>
+                <option id="" name="">Northwest Territories</option>
+                <option id="" name="">Nunavut</option>
+                <option id="" name="">Ontario</option>
+                <option id="" name="">Prince Edward Island</option>
+                <option id="" name="">Quebec</option>
+                <option id="" name="">Saskatchewan</option>
+                <option id="" name="">Yukon</option>
+                <option id="" name="">Virgin Islands</option>
+            </select> 
+
+            <label>Select your Country<span>&#42;</span></label>
+            <select>
+                <option id="" name="" id="" name="" disabled>Please Select</option>
+                <option id="" name="">Afganistan</option>
+                <option id="" name="">Albania</option>
+                <option id="" name="">Algeria</option>
+                <option id="" name="">Andorra</option>
+                <option id="" name="">Angola</option>
+                <option id="" name="">Antigua & deps</option>
+                <option id="" name="">Argentina</option>
+                <option id="" name="">Armenia</option>
+                <option id="" name="">Aruba</option>
+                <option id="" name="">Australia</option>
+                <option id="" name="">Austria</option>
+                <option id="" name="">Azerbaijan</option>
+                <option id="" name="">Bahamas</option>
+                <option id="" name="">Baharain</option>
+                <option id="" name="">Bangladesh</option>
+                <option id="" name="">Barbados</option>
+                <option id="" name="">Belarus</option>
+                <option id="" name="">Belgium</option>
+                <option id="" name="">Belize</option>
+                <option id="" name="">Benin</option>
+                <option id="" name="">Bermuda</option>
+                <option id="" name="">Bhutan</option>
+                <option id="" name="">Bolivia</option>
+                <option id="" name="">Bosnia Herzegovina</option>
+                <option id="" name="">Botswana</option>
+                <option id="" name="">Brazil</option>
+                <option id="" name="">Brunei</option>
+                <option id="" name="">Bulgaria</option>
+                <option id="" name="">Burkina FasoBurundi</option>
+                <option id="" name="">Combodia</option>
+                <option id="" name="">cameroon</option>
+                <option id="" name="">Canada</option>
+                <option id="" name="">Cape Verde</option>
+                <option id="" name="">Central African Rep</option>
+                <option id="" name="">Chad</option>
+                <option id="" name="">Chile</option>
+                <option id="" name="">China</option>
+                <option id="" name="">Colombia</option>
+                <option id="" name="">Comoros</option>
+                <option id="" name="">Congo</option>
+                <option id="" name="">Costa Rica</option>
+                <option id="" name="">Croatia</option>
+                <option id="" name="">Cuba</option>
+                <option id="" name="">Curacao</option>
+                <option id="" name="">Cyprus</option>
+                <option id="" name="">Czech Republic</option>
+                <option id="" name="">Democratic Republic of the Congo</option>
+                <option id="" name="">Denmark</option>
+                <option id="" name="">Djibouti</option>
+                <option id="" name="">Dominica</option>
+                <option id="" name="">Dominican Republic</option>
+                <option id="" name="">East Timor</option>
+                <option id="" name="">Equador</option>
+                <option id="" name="">Egypt</option>
+                <option id="" name="">El Salvador</option>
+                <option id="" name="">Equatorial Guinea</option>
+                <option id="" name="">Eritrea</option>
+                <option id="" name="">Estonia</option>
+                <option id="" name="">Ethiopia</option>
+                <option id="" name="">Fiji</option>
+                <option id="" name="">Finland</option>
+                <option id="" name="">france</option>
+                <option id="" name="">Gabon</option>
+                <option id="" name="">Gambia</option>
+                <option id="" name="">Georgia</option>
+                <option id="" name="">Germany</option>
+                <option id="" name="">Ghana</option>
+                <option id="" name="">Greece</option>
+                <option id="" name="">Grenada</option>
+                <option id="" name="">Guam</option>
+                <option id="" name="">Guatemala</option>
+                <option id="" name="">Guinea</option>
+                <option id="" name="">Guinea-Bissau</option>
+                <option id="" name="">Guyana</option>
+                <option id="" name="">Haiti</option>
+                <option id="" name="">Honduras</option>
+                <option id="" name="">Hungary</option>
+                <option id="" name="">Iceland</option>
+                <option id="" name="">India</option>
+                <option id="" name="">Indonesia</option>
+                <option id="" name="">Iran</option>
+                <option id="" name="">Iraq</option>
+                <option id="" name="">Israel</option>
+                <option id="" name="">Italy</option>
+                <option id="" name="">Ivory Coast</option>
+                <option id="" name="">Jamaica</option>
+                <option id="" name="">Japan</option>
+                <option id="" name="">Jordan</option>
+                <option id="" name="">Kzakhstan</option>
+                <option id="" name="">Kenya</option>
+                <option id="" name="">Kiribati</option>
+                <option id="" name="">Korea North</option>
+                <option id="" name="">Korea South</option>
+                <option id="" name="">Kosovo</option>
+                <option id="" name="">Kuwait</option>
+                <option id="" name="">Kyrgyzstan</option>
+                <option id="" name="">Laos</option>
+                <option id="" name="">Latvia</option>
+                <option id="" name="">Lebanon</option>
+                <option id="" name="">Lesotho</option>
+                <option id="" name="">Liberia</option>
+                <option id="" name="">Libya</option>
+                <option id="" name="">Liechtenstein</option>
+                <option id="" name="">Lithuania</option>
+                <option id="" name="">Luxembourg</option>
+                <option id="" name="">Macedonia</option>
+                <option id="" name="">Madagascar</option>
+                <option id="" name="">Malawi</option>
+                <option id="" name="">Malaysia</option>
+                <option id="" name="">Maldives</option>
+                <option id="" name="">Mali</option>
+                <option id="" name="">Malta</option>
+                <option id="" name="">Marshall Iceland</option>
+                <option id="" name="">Mauritania</option>
+                <option id="" name="">Mauritius</option>
+                <option id="" name="">Mexico</option>
+                <option id="" name="">Micronesia</option>
+                <option id="" name="">Moldova</option>
+                <option id="" name="">Monaco</option>
+                <option id="" name="">Mongolia</option>
+                <option id="" name="">Montenegro</option>
+                <option id="" name="">Morocco</option>
+                <option id="" name="">MMozambique</option>
+                <option id="" name="">Myanmar,(Burma)</option>
+                <option id="" name="">Namibia</option>
+                <option id="" name="">Nauru</option>
+                <option id="" name="">Nepal</option>
+                <option id="" name="">Netherlands</option>
+                <option id="" name="">New Zealand</option>
+                <option id="" name="">Nicaragua</option>
+                <option id="" name="">Niger</option>
+                <option id="" name="">Nigeria</option>
+                <option id="" name="">Northen Mariana Islands</option>
+                <option id="" name="">Norway</option>
+                <option id="" name="">Oman</option>
+                <option id="" name="">Pakistan</option>
+                <option id="" name="">Palau</option>
+                <option id="" name="">Panama</option>
+                <option id="" name="">Papua New Guinea</option>
+                <option id="" name="">Paraguay</option>
+                <option id="" name="">Peru</option>
+                <option id="" name="">Philippines</option>
+                <option id="" name="">Poland</option>
+                <option id="" name="">Portugal</option>
+                <option id="" name="">Puerto Rico</option>
+                <option id="" name="">Qatar</option>
+                <option id="" name="">Republic of Ireland</option>
+                <option id="" name="">Romania</option>
+                <option id="" name="">Russian Federation</option>
+                <option id="" name="">Rwanda</option>
+                <option id="" name="">Saint-Martin</option>
+                <option id="" name="">Samoa</option>
+                <option id="" name="">San Marino</option>
+                <option id="" name="">Sao Tome & Principe</option>
+                <option id="" name="">Saudi Arabia</option>
+                <option id="" name="">Senegal</option>
+                <option id="" name="">Serbia</option>
+                <option id="" name="">seychelles</option>
+                <option id="" name="">Sierra Leone</option>
+                <option id="" name="">Singapore</option>
+                <option id="" name="">slovakia</option>
+                <option id="" name="">Slovenia</option>
+                <option id="" name="">Solomon Islands</option>
+                <option id="" name="">Somalia</option>
+                <option id="" name="">south Africa</option>
+                <option id="" name="">South Sudan</option>
+                <option id="" name="">Spain</option>
+                <option id="" name="">Sri Lanka</option>
+                <option id="" name="">st Kitts & Nevis</option>
+                <option id="" name="">St Lucia</option>
+                <option id="" name="">State of Palestine</option>
+                <option id="" name="">sudan</option>
+                <option id="" name="">Suriname</option>
+                <option id="" name="">Swaziland</option>
+                <option id="" name="">Sweden</option>
+                <option id="" name="">switzerland</option>
+                <option id="" name="">syria</option>
+                <option id="" name="">Taiwan</option>
+                <option id="" name="">Tajikistan</option>
+                <option id="" name="">Tanzania</option>
+                <option id="" name="">Thailand</option>
+                <option id="" name="">Timor-Leste</option>
+                <option id="" name="">Togo</option>
+                <option id="" name="">Tonga</option>
+                <option id="" name="">Trinidad & Tobago</option>
+                <option id="" name="">Tunisia</option>
+                <option id="" name="">Turkey</option>
+                <option id="" name="">Turkmenistan</option>
+                <option id="" name="">Tuvalu</option>
+                <option id="" name="">Uganda</option>
+                <option id="" name="">Ukraine</option>
+                <option id="" name="">United Arab Emirates</option>
+                <option id="" name="">United Kingdom</option>
+                <option id="" name="">United States</option>
+                <option id="" name="">Uruguay</option>
+                <option id="" name="">Uzbekistan</option>
+                <option id="" name="">Vanuatu</option>
+                <option id="" name="">Vetican City</option>
+                <option id="" name="">Venezuela</option>
+                <option id="" name="">Vietnam</option>
+                <option id="" name="">Virgin Islands</option>
+                <option id="" name="">Yemen</option>
+                <option id="" name="">Zambia</option>
+                <option id="" name="">Zimbabwe</option>
+
+            </select>
+
+            <label>Tell us a little about your business.Rental house? Equipment Dealer? Service provider?</label>
+            <textarea rows="4" column="12" name="description" style="resize: both;"></textarea>
+
+            </label>
+        </div>
+
+            <p>What equipment are you interested in selling/buying? (check all that apply)</p>
+        <div class="chklist">
+            <div><input type="checkbox" id="" name="">Power Trowels</div>
+            <div><input type="checkbox" id="" name="">Compaction</div>
+            <div><input type="checkbox" id="" name="">Mixers</div>
+            <div><input type="checkbox" id="" name="">Saws-iQ Power Tools</div>
+            <div><input type="checkbox" id="" name="">Saws-Bartell Global</div>
+            <div><input type="checkbox" id="" name="">Buggies</div>
+            <div><input type="checkbox" id="" name="">Screed</div>
+            <div><input type="checkbox" id="" name="">Scarifiers</div>
+            <div><input type="checkbox" id="" name="">Floor Scrapers</div>
+            <div><input type="checkbox" id="" name="">Shot Blasters</div>
+            <div><input type="checkbox" id="" name="">Grinders</div>
+            <div><input type="checkbox" id="" name="">Generators</div>
+            <div><input type="checkbox" id="" name="">Spreaders</div>
+            <div><input type="checkbox" id="" name="">Dust Collectors</div>
+            <div><input type="checkbox" id="" name="">General-Construction Equipment</div> 
+            <div><input type="checkbox" id="" name="">General-Surface Prep Equipment</div> 
+            <div><input type="checkbox" id="" name="">Diamond blades & Bits</div>
+            <div><input type="checkbox" id="" name="">Tooling,Accessories, Parts, & consumable</div>
+        </div>
+        
+
+        <p>Please check the box below to indicate your consent to allow Bartell Global to collect your contact info and get back to you with the information you have requested.</p>
+
+        <div><input type="checkbox" required>Consent</div>
+
+        <button>Submit</button>
+    </div>
+</form>
+</body>
+</html>
